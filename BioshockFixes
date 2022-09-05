@@ -1,0 +1,18 @@
+Bioshock Fixes for Steam Deck
+Fixes to launch Bioshock game on Steam after introduction of new 2k launcher
+Bioshock Remastered
+
+    Enter the line below into launch option in games properties
+
+bash -c 'exec "${@/2KLauncher/LauncherPatcher.exe/Build/Final/BioshockHD.exe}"'
+Bioshock 2 Remastered
+
+    Enter the line below into launch option in games properties
+
+bash -c 'exec "${@/2KLauncher/LauncherPatcher.exe/Build/Final/BioshockHD2.exe}"'
+Bioshock Infinite
+Change to compatible mode with Proton 7.0+
+
+    Enter the line below into launch option in games properties
+
+bash -c 'exec "${@/2KLauncher/LauncherPatcher.exe/Binaries/Win32/BioShockInfinite.exe}"' -- %command% -nointro 
