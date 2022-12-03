@@ -1,6 +1,6 @@
-# Scripts, tips, and graphics for Steam Deck
+# NetworkManager Dispatcher Scripts, tips, and graphics for Steam Deck
 
-## Scripts
+## Dispatcher Scripts
 * 31-sshdhome.sh - NetworkManager Dispatcher script that will turn on Steam Deck ssh server when on home wireless network
 * 32-mounthomenfs.sh - NetworkManager Dispatcher script that will automatically mount home NFS share when on home wireless network
 
@@ -9,4 +9,3 @@
 
 ## Graphics
 * overlays - Overlay bezel for RetroArch fbneo and mame cores.
-
