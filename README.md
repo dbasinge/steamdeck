@@ -1,7 +1,8 @@
 # Scripts, tips, and graphics for Steam Deck
 
 ## Scripts
-* 31-sshdhome.sh - NetworkManager Dispatcher script that will turn on Steam Deck ssh server when on home network  
+* 31-sshdhome.sh - NetworkManager Dispatcher script that will turn on Steam Deck ssh server when on home wireless network
+* 32-mounthomenfs.sh - NetworkManager Dispatcher script that will automatically mount home NFS share when on home wireless network
 
 ## Tips
 * BioshockFixes - Changes needed for launcher after 2K added third-party launcher   
